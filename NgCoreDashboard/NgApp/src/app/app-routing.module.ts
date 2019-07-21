@@ -4,6 +4,7 @@ import { SectionOrdersComponent } from './sections/section-orders/section-orders
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
 import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
 
+
 const routes: Routes = [
   {path: 'sales', component: SectionSalesComponent},
   {path: 'orders', component: SectionOrdersComponent},
